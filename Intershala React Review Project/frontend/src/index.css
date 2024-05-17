@@ -18,7 +18,7 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+/* 
 @layer components {
   .max-container {
     max-width: 1440px;
@@ -62,4 +62,4 @@ body {
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
-}
+} */

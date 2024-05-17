@@ -56,12 +56,12 @@ import React from "react";
 
 const Tooltip = ({ children, tooltip }) => {
   return (
-    <div className="group relative inline w-auto border-2 ">
+    <div className="group relative inline w-auto">
       {children}
 
       {tooltip ? (
         <span
-          className="invisible group-hover:visible bg-gray-100 px-4 py-1.5 rounded-md absolute -top-10 whitespace-nowrap shadow-md transition duration-200 ease-in-out text-gray-900/80 font-semibold text-md font-montserrat z-10 w-auto"
+          className="opacity-0 group-hover:opacity-100 visible group-hover:visible bg-gray-100 px-4 py-1.5 rounded-md absolute -top-10 whitespace-nowrap shadow-md transition-opacity duration-200 ease-in-out text-gray-900/80 font-semibold text-md font-montserrat z-10 w-auto"
           style={{ left: "60px" }}
         >
           {tooltip}
