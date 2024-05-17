@@ -435,7 +435,7 @@ const ReviewHighlighterCodepen = () => {
                 <span className="text-gray-900 ps-1">
                   {dataItem.reviewer_name}
                 </span>
-                <span className="text-gray-400 px-1 inline-block">
+                <span className="text-gray-400 px-1 inline-block text-nowrap">
                   wrote a review at
                 </span>
                 <span className="text-gray-900 ps-1">
