@@ -14,7 +14,7 @@ const Tooltip = ({ children, tooltip }) => {
 
       {tooltip ? (
         <span
-          className="opacity-0 group-hover:opacity-100 visible group-hover:visible bg-gray-100 px-4 py-1 rounded-md absolute -top-8 whitespace-nowrap shadow-md transition-opacity duration-200 ease-in-out text-gray-800 font-medium text-md z-10 w-auto"
+          className="opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 px-4 py-1 rounded-md absolute -top-8 whitespace-nowrap shadow-md transition-opacity duration-200 ease-in-out text-gray-800 font-medium text-md z-10 w-auto"
           style={{ left: "5rem" }}
         >
           {tooltip}

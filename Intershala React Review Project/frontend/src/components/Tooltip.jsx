@@ -61,9 +61,10 @@ const Tooltip = ({ children, tooltip }) => {
 
       {tooltip ? (
         <span
-          className="opacity-0 group-hover:opacity-100 visible group-hover:visible bg-gray-100 px-4 py-1.5 rounded-md absolute -top-10 whitespace-nowrap shadow-md transition-opacity duration-200 ease-in-out text-gray-900/80 font-semibold text-md font-montserrat z-10 w-auto"
-          style={{ left: "60px" }}
+          className="opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-gray-100 px-4 py-1.5 rounded-md absolute -top-10 whitespace-nowrap shadow-md transition-opacity duration-200 ease-in-out text-gray-900/80 font-semibold text-md font-montserrat z-10 w-auto"
+          style={{ left: "5rem" }}
         >
+          {/* {console.log(tooltip)} */}
           {tooltip}
         </span>
       ) : null}
